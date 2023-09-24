@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AddElementToDoublyLinkedList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ChooseTypeOfList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EditElement.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ReadFromFile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RemoveElementWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SaveToFile.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AddElementToDoublyLinkedList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChooseTypeOfList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EditElement.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ReadFromFile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RemoveElementWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SaveToFile.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

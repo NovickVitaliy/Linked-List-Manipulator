@@ -1,0 +1,16 @@
+﻿<Window x:Class="Laba_15_1.AddElementToDoublyLinkedList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laba_15_1"
+        mc:Ignorable="d"
+        Title="AddElementToDoublyLinkedList" Height="450" Width="800">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Label>Choose where to add element</Label>
+    <Button x:Name="AddFirst" Click="AddFirst_Click">Add first</Button>
+    <Button x:Name="AddLast" Click="AddLast_Click">Add last</Button>
+    <Button x:Name="AddAtIndex" Click="AddAtIndex_Click">Add at index</Button>
+    <TextBox x:Name="tbIndex"></TextBox>
+    </StackPanel>
+</Window>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="Laba_15_1.ReadFromFileWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laba_15_1"
+        mc:Ignorable="d"
+        Title="ReadFromFile" Height="450" Width="800">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
+    <Label>Choose file to read info from</Label>
+    <TextBox x:Name="tbFilePath"></TextBox>
+    <Button x:Name="ChooseFileButton" Click="ChooseFileButton_Click">Choose file</Button>
+    <Button x:Name="tbReadFromFileButton" Click="tbReadFromFileButton_Click">Read from file</Button>
+  </StackPanel>
+</Window>

@@ -1,0 +1,80 @@
+﻿<Window x:Class="Laba_15_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laba_15_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+  <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid.RowDefinitions>
+      <RowDefinition></RowDefinition>
+      <RowDefinition></RowDefinition>
+      <RowDefinition></RowDefinition>
+      <RowDefinition></RowDefinition>
+    </Grid.RowDefinitions>
+
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+      <ColumnDefinition></ColumnDefinition>
+    </Grid.ColumnDefinitions>
+    
+    <Label Grid.Row="0" Grid.ColumnSpan="12" HorizontalAlignment="Center" Name="ChosenList">Chosen type of list: </Label>
+    
+
+    <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="0">Add element</TextBlock>
+    <Button Grid.Row="2" Grid.Column="0" Name="AddElementButton" Click="AddElementButton_Click">
+      <TextBlock TextWrapping="Wrap">Add element</TextBlock>
+    </Button>
+    <TextBox x:Name="tbAddElement" Grid.Row="3" Grid.Column="0"></TextBox>
+
+    <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="1">Check element of list</TextBlock>
+    <Button Grid.Row="2" Grid.Column="1" Name="CheckElement" Click="CheckElement_Click" >
+      <TextBlock TextWrapping="Wrap">Check elements</TextBlock>
+    </Button>
+
+    <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="2" Margin="0,0,0,36" Grid.RowSpan="2">Count</TextBlock>
+    <Button Grid.Row="2" Grid.Column="2" Name="Count" Click="Count_Click">Count</Button>
+
+    <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="3">Is empty?</TextBlock>
+    <Button Grid.Row="2" Grid.Column="3" x:Name="IsEmpty" Click="IsEmpty_Click">Is Empty?</Button>
+
+    <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="4">Remove element</TextBlock>
+    <Button Grid.Column="4" Grid.Row="2" Name="Remove" Click="Remove_Click">Remove</Button>
+
+    <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="5">Edit element of array</TextBlock>
+    <Button Grid.Column="5" Grid.Row="2" Name="Edit" Click="Edit_Click">Edit</Button>
+
+
+    <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="6">Replace value for all</TextBlock>
+    <Button Grid.Row="2" Grid.Column="6" Name="Replace" Click="Replace_Click">Replace</Button>
+    <TextBox x:Name="tbReplaceValueForAll" Grid.Row="3" Grid.Column="6"></TextBox>
+
+    <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="7">Find by field</TextBlock>
+    <Button Grid.Row="2" Grid.Column="7" Name="FindByField" Click="FindByField_Click">Find</Button>
+    <TextBox Grid.Row="3" Grid.Column="7" x:Name="tbFieldToFind"></TextBox>
+
+    <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="8">Sort</TextBlock>
+    <Button Grid.Row="2" Grid.Column="8" Name="Sort" Click="Sort_Click">Sort</Button>
+
+    <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="9">Save to file</TextBlock>
+    <Button Grid.Row="2" Grid.Column="9" Name="SaveToFile" Click="SaveToFile_Click">Save</Button>
+
+    <TextBlock TextWrapping="Wrap" Grid.Row="1" Grid.Column="10">Read from file</TextBlock>
+    <Button Grid.Row="2" Grid.Column="10" Name="ReadFromFile" Click="ReadFromFile_Click">Read</Button>
+
+
+  </Grid>
+</Window>

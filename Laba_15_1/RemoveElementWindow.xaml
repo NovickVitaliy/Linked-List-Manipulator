@@ -1,0 +1,18 @@
+﻿<Window x:Class="Laba_15_1.RemoveElementWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Laba_15_1"
+        mc:Ignorable="d"
+        Title="RemoveElementWindow" Height="450" Width="800">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Orientation="Vertical">
+    <Button x:Name="DeleteAllElementButton" Click="DeleteAllElementButton_Click">All elements</Button>
+    <Button x:Name="DeleteByIndexButton" Click="DeleteByIndexButton_Click">By index</Button>
+    <TextBox x:Name="tbIndex"></TextBox>
+    <Button x:Name="DeleteByValueButton" Click="DeleteByValueButton_Click">By value</Button>
+    <TextBox x:Name="tbValueSingle"></TextBox>
+    <Button x:Name="DeleteByValuesAsCSV" Click="DeleteByValuesAsCSV_Click">By values (as CSV)</Button>
+    <TextBox x:Name="tbValuesAsCSV"></TextBox>
+    </StackPanel>
+</Window>
